@@ -18,3 +18,12 @@
 .playlists::-webkit-scrollbar{
     display: none;
 }
+
+.loginBtn{
+    width: 100px;
+    height: 50px;
+    background-color: #3C7AC7;
+    color: white;
+    margin-top: 25%;
+    margin-left: 45%;
+}

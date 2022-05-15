@@ -75,7 +75,7 @@ var client_secret = '';
 
 return(
   <div style={{height:"100vh"}}> 
-    {!isLogged ? <button onClick={getAuth}>Login</button> : (<div className={classes['container']}> <div className={classes['playlists']}>  <Playlists /> </div> <div className={classes['player']}> <Player /> </div> </div>)}
+    {!isLogged ? <button className={classes['loginBtn']} onClick={getAuth}>Login</button> : (<div className={classes['container']}> <div className={classes['playlists']}>  <Playlists /> </div> <div className={classes['player']}> <Player /> </div> </div>)}
 
  
   </div>
