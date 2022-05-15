@@ -1,0 +1,20 @@
+.container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.playlists{
+
+    padding-top: 0px;
+    height: 90%;
+    width: 100%;
+    top: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+}
+.playlists::-webkit-scrollbar{
+    display: none;
+}

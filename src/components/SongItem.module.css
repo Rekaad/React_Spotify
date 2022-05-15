@@ -1,0 +1,148 @@
+.songitem{
+    width: 100%;
+    display: flex ;
+    letter-spacing: 1px;
+    
+}
+
+.songname{
+ 
+    width: 40%;
+    list-style-type: none;
+    padding-left: 10px;
+    margin-right: 5px;
+    color: #77838F;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.songname:hover{
+    color: #3C7AC7;
+
+}
+
+.playbtn{
+    width: 50px;
+    display: inline-block;
+    color: #3C7AC7;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.songalbum{
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+    color: #77838F;
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.songrelease{
+    width: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #77838F;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.songduration{
+    width: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #77838F;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.dotmenu{
+    width: 50px;
+    display: inline-block;
+    color: #3C7AC7;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+
+
+@media screen and (max-width: 375px){
+   
+       
+    .songname{
+ 
+    width: 80%;
+
+    
+    }
+    
+    .songalbum{
+        display: none;
+    
+    }
+    
+    .songrelease{
+        display: none;
+    
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .songalbum{
+        display: none;
+    
+    }
+    
+    .songrelease{
+        display: none;
+    
+    }
+
+    .dotmenu{
+        width: 50px;
+        right: 0px;
+        display: inline-block;
+        color: #3C7AC7;
+        margin-top: auto;
+        margin-left: 5%;
+        margin-bottom: auto;
+    
+    
+    }
+    
+    .songduration{
+
+        right: 75px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    
+.songname{
+ 
+    width: 70%;
+
+    
+}
+    
+    .songrelease{
+        display: none;
+    }
+}

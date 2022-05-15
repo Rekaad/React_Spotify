@@ -1,0 +1,128 @@
+
+.playlists{
+    list-style-type: none;
+    text-decoration: none; 
+    
+}
+
+.playlist{
+    width: 100%;
+
+    list-style-type: none;
+    text-decoration: none; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+
+}
+
+.upperTextSmall{
+    text-align: center;
+    top: 0px;
+    margin: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.upperTextBig{
+    text-align: center;
+    top: 0px;
+    margin: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.playlists > div >  ul{
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: 1px solid #3C7AC7;
+    
+}
+
+.smallPlayer{
+    border-top: 1px solid #e0e0de;
+}
+
+.bigImage{
+
+
+        height: 295px;
+        min-height: 295px;
+        width: 295px;
+        min-width: 295px;
+        border-radius: 50%;
+
+        background-color: #C6C6CA;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 36px;
+        margin-top: 63px ;
+
+}
+
+.songTitle{
+
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+color: #1E2022;
+letter-spacing: 1px;
+margin-bottom: 13px;
+}
+
+.songArtist{
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #77838F;
+    letter-spacing: 1px;
+    margin-bottom: 76px;
+}
+
+.progressBar{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 100%;
+    height: 5px;
+    background: #CED7E3;
+    border-radius: 5px;
+    background-image: linear-gradient(#3C7AC7, #3C7AC7);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #CED7E3;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    transition: background .3s ease-in-out;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+  }

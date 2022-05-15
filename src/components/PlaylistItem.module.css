@@ -1,0 +1,106 @@
+.playlist{
+    height: 100%;
+    width: 100%;
+}
+
+.playlist .dropdown{
+
+    width: 100%;
+    display: flex;
+}
+
+.playlist .dropdown .dropdowntitle{
+
+    width: 97%;
+}
+
+.playlist .dropdowntitle .playlistname{
+    color: #1E2022;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    height: 100%;
+    padding-left: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 10px;
+    
+
+    
+}
+
+
+.playlist .dropdowntitle .playlistUP{
+    color: #77838F;
+    width: 100%;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+
+    
+
+    
+}
+
+.playlist .dropdown .playlist-btn{
+    width: 40px;
+    height: 100%;
+    margin: auto;
+
+}
+
+.playlist .dropdown .playlist-btn .icon{
+    width: 100%;
+
+}
+
+.playlist .visi > li{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+
+
+    height: 100%;
+}
+.playlist > li > .visi{
+    
+    padding-left: 0px;
+    animation: rotateMenu 400ms ease-in-out forwards;
+    transform-origin: top center;
+
+    @keyframes rotateMenu {
+        0%{
+            transform: rotateX(-90deg)
+        }
+        70%{
+            transform: rotateX(20deg);
+        }
+        100%{
+            transform: rotateX(0deg)
+        }
+    }
+}
+
+.playlist .invi > li {
+    display: none;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .playlist .dropdown .playlist-btn{
+
+        height: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .playlist .dropdown .playlist-btn{
+
+        height: 100%;
+        margin: auto;
+    }
+}
